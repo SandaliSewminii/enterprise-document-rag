@@ -59,26 +59,26 @@ This approach allows the system to answer questions using information directly f
 ---
 ## Project Structure
 
+```
 enterprise-document-rag
 │
 ├── app
-│ ├── main.py
-│ ├── document_loader.py
-│ ├── vector_store.py
-│ ├── rag_pipeline.py
-│ └── llm_handler.py
+│   ├── main.py
+│   ├── document_loader.py
+│   ├── vector_store.py
+│   ├── rag_pipeline.py
+│   └── llm_handler.py
 │
 ├── data
-│ └── sample.pdf
+│   └── sample.pdf
 │
 ├── utils
-│ └── config.py
+│   └── config.py
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
----
+```
 
 ## Example Workflow
 
@@ -115,4 +115,5 @@ Sandali Sewmini
 ## License
 
 This project is for educational and research purposes.
+
 
